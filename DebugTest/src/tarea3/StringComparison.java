@@ -9,10 +9,10 @@ public class StringComparison {
     public static void main(String[] args) {
         // Casos de prueba
         String[][] testCases = {
-            {"apple", "apple"},
-            {"banana", new String("banana")},
-            {"cherry", "CHERRY"},
-            {new String("date"), new String("date")}
+                { "apple", "apple" },
+                { "banana", "banana" },
+                { "cherry", "CHERRY" },
+                { "date", "date" }
         };
 
         for (int i = 0; i < testCases.length; i++) {
