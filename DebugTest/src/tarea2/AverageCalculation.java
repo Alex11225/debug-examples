@@ -6,10 +6,10 @@ package tarea2;
 public class AverageCalculation {
     public static void main(String[] args) {
         int[][] testCases = {
-            {10, 20, 30},
-            {5, 15, 25, 35},
-            {100, 200, 300, 400},
-            {1, 2, 3, 4, 5},
+                { 10, 20, 30 },
+                { 5, 15, 25, 35 },
+                { 100, 200, 300, 400 },
+                { 1, 2, 3, 4, 5 },
         };
 
         for (int i = 0; i < testCases.length; i++) {
@@ -28,6 +28,6 @@ public class AverageCalculation {
         for (int num : numbers) {
             sum += num;
         }
-        return (double) sum / (numbers.length - 1);
+        return (double) sum / (numbers.length);
     }
 }
